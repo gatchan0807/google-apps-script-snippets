@@ -1,5 +1,5 @@
 function notifyErrorToSlack(
-  error,
+  error: Error,
   config: {
     botToken: string;
     notifyChannelId: string;
