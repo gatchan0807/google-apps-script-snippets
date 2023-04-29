@@ -1,3 +1,8 @@
+interface SlackMessage {
+  // note: この型に合わせて通知に使うデータだけに絞ったJSONオブジェクトを作る
+  text: string;
+}
+
 interface SlackNotifyConfig {
   notifyChannelId: string;
   botToken: string;
