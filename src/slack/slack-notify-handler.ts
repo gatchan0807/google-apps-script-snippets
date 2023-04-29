@@ -6,6 +6,7 @@ interface SlackMessage {
 interface SlackNotifyConfig {
   notifyChannelId: string;
   botToken: string;
+  // note: blockを生成する関数を受け取れると拡張性が出来て良い
 }
 
 class SlackNotifyHandler {
