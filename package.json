@@ -5,5 +5,8 @@
   "repository": "https://github.com/gatchan0807/google-apps-script-snippets",
   "author": "がっちゃん <yuki.dolphin.koga@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.62"
+  }
 }
